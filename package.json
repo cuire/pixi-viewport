@@ -9,6 +9,10 @@
     "directories": {
         "doc": "docs"
     },
+    "exports": {
+        "import": "./dist/pixi_viewport.js",
+        "require": "./dist/pixi_viewport.umd.cjs"
+    },
     "files": [
         "dist"
     ],
