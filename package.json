@@ -1,7 +1,7 @@
 {
-    "name": "pixi-viewport",
+    "name": "pixi-viewport-forked",
     "version": "5.0.2",
-    "description": "A highly configurable viewport/2D camera designed to work with pixi.js. Features include dragging, pinch-to-zoom, mouse wheel zooming, decelerated dragging, follow target, snap to point, snap to zoom, clamping, bouncing on edges, and move on mouse edges.",
+    "description": "Fork of pixi-viewport. A highly configurable viewport/2D camera designed to work with pixi.js. Features include dragging, pinch-to-zoom, mouse wheel zooming, decelerated dragging, follow target, snap to point, snap to zoom, clamping, bouncing on edges, and move on mouse edges.",
     "main": "./dist/pixi_viewport.umd.cjs",
     "module": "./dist/pixi_viewport.js",
     "type": "module",
@@ -29,7 +29,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/davidfig/pixi-viewport.git"
+        "url": "git+https://github.com/curie/pixi-viewport-forked.git"
     },
     "keywords": [
         "PIXI",
@@ -45,9 +45,9 @@
     "author": "David Figatner",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/davidfig/pixi-viewport/issues"
+        "url": "https://github.com/cuire/pixi-viewport-forked/issues"
     },
-    "homepage": "https://github.com/davidfig/pixi-viewport#readme",
+    "homepage": "https://github.com/cuire/pixi-viewport-forked#readme",
     "devDependencies": {
         "@pixi/core": "^7.1.1",
         "@pixi/display": "^7.1.1",
