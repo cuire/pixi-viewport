@@ -1,4 +1,8 @@
-# pixi-viewport
+# 🍴 pixi-viewport-forked 🍴
+
+> Fork of [pixi-viewport](https://github.com/davidfig/pixi-viewport) published to npn as `pixi-viewport-forked` to fix some issues with the original package without waiting for the original author to merge the PRs.
+> If anyone wants to make a PR to that repo, please do so, I will try to keep this package maintained.
+
 A highly configurable viewport/2D camera designed to work with pixi.js.
 
 Features include dragging, pinch-to-zoom, mouse wheel zooming, decelerated dragging, follow target, animate, snap to point, snap to zoom, clamping, bouncing on edges, and move on mouse edges. See the live examples below to try out all of these features.
