@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ $default-branch ]
   pull_request:
-    branches: [ master ]
+    branches: [ $default-branch ]
 
 jobs:
   test:
@@ -14,9 +14,12 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: ⏬ Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
       - name: ✨ Lint
-        run: yarn lint
+        run: pnpm lint
       - name: 🦾 Build Lib
-        run: yarn build
+        run: pnpm build

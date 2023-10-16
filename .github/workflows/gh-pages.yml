@@ -34,10 +34,13 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "16"
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
       - name: ⏬ Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install --frozen-lockfile
       - name: 🦾 Build Lib and Docs
-        run: yarn prepublishOnly
+        run: pnpm prepublishOnly
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
